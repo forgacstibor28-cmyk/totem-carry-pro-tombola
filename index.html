@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Totem Carry Pro — prototip de pagină pentru o campanie promoțională cu bicicletă electrică." />
+  <title>Totem Carry Pro | Campanie promoțională</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top"><span class="brand-mark">T</span><span>TOTEM<span class="brand-accent">.</span></span></a>
+    <nav>
+      <a href="#bicicleta">Bicicleta</a>
+      <a href="#cum-functioneaza">Cum funcționează</a>
+      <a href="#detalii">Detalii</a>
+    </nav>
+    <a class="header-cta" href="#participa">Participă <span>↗</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero section-grid">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="pulse"></span> Campanie promoțională · Prototip</p>
+        <h1>Pedalează spre<br><em>următoarea aventură.</em></h1>
+        <p class="hero-text">Descoperă Totem Carry Pro — o bicicletă electrică full-suspension creată pentru trasee care nu se termină la asfalt.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#participa">Vreau să particip <span>→</span></a>
+          <a class="text-link" href="#bicicleta">Vezi bicicleta <span>↓</span></a>
+        </div>
+        <div class="hero-meta"><div><strong>400</strong><span>participări disponibile</span></div><div><strong>50 lei</strong><span>valoare participare</span></div><div><strong>730 Wh</strong><span>baterie</span></div></div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-glow"></div>
+        <div class="visual-label">TOTEM<br><span>CARRY PRO</span></div>
+        <div class="bike-placeholder"><div class="bike-wheel wheel-one"></div><div class="bike-wheel wheel-two"></div><div class="bike-frame"></div><div class="bike-seat"></div><div class="bike-handle"></div><div class="bike-battery"></div></div>
+        <div class="visual-bottom"><span>01 / 03</span><span>FULL-SUSPENSION E-MTB</span></div>
+      </div>
+    </section>
+
+    <section id="bicicleta" class="product-section section-grid">
+      <div class="section-heading"><p class="eyebrow">01 — Bicicleta</p><h2>Construită pentru<br><em>mai mult.</em></h2></div>
+      <div class="product-intro"><p>Totem Carry Pro combină un motor central puternic, o baterie generoasă și componente Shimano pentru o experiență controlată pe urcări, coborâri și drumuri neasfaltate.</p><a class="text-link" href="https://www.ebikes-hof.de/product-page/totem-carry-pro" target="_blank" rel="noreferrer">Vezi produsul original ↗</a></div>
+    </section>
+
+    <section class="specs" id="detalii">
+      <div class="spec-card"><span>01</span><strong>80 Nm</strong><small>Cuplu motor VINKA</small></div>
+      <div class="spec-card"><span>02</span><strong>730 Wh</strong><small>Baterie integrată</small></div>
+      <div class="spec-card"><span>03</span><strong>Shimano</strong><small>Deore + MT200 hidraulic</small></div>
+      <div class="spec-card"><span>04</span><strong>27,5”</strong><small>Roți pentru control</small></div>
+    </section>
+
+    <section id="cum-functioneaza" class="steps-section">
+      <div class="section-heading"><p class="eyebrow">02 — Procesul</p><h2>Trei pași.<br><em>O aventură.</em></h2></div>
+      <div class="steps"><article><span>01</span><h3>Alege participarea</h3><p>Selectează participarea disponibilă și completează datele solicitate în formular.</p></article><article><span>02</span><h3>Primește confirmarea</h3><p>După validarea participării, vei primi confirmarea și numărul alocat.</p></article><article><span>03</span><h3>Urmărește extragerea</h3><p>Extragerea și condițiile campaniei vor fi publicate transparent, conform regulamentului.</p></article></div>
+    </section>
+
+    <section id="participa" class="participate-section">
+      <div><p class="eyebrow">03 — Participare</p><h2>Locul tău poate<br>fi pe <em>traseu.</em></h2><p class="muted">Această pagină este un prototip. Participarea și plățile reale nu sunt activate.</p></div>
+      <div class="participate-card"><div class="price-row"><span>Participare demonstrativă</span><strong>50 lei</strong></div><div class="progress-label"><span>Locuri disponibile</span><span>400 / 400</span></div><div class="progress"><i></i></div><button class="button button-primary full" id="participateBtn">Participă demonstrativ <span>→</span></button><p class="fine-print">Prin continuare confirmi că ai citit informațiile campaniei. Nu se procesează nicio plată.</p></div>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#top"><span class="brand-mark">T</span><span>TOTEM<span class="brand-accent">.</span></span></a><p>© 2026 Totem Carry Pro. Prototip de prezentare.</p><a href="#detalii">Regulament și condiții ↗</a></footer>
+  <div class="toast" id="toast">Participarea demonstrativă nu este încă activă.</div>
+  <script src="script.js"></script>
+</body>
+</html>
